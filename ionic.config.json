@@ -1,0 +1,7 @@
+{
+  "name": "sentry-sourcemaps-issue",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}
