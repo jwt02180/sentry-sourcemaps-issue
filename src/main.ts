@@ -9,8 +9,8 @@ import * as SentryAngular from '@sentry/angular';
 
 Sentry.init({
   dsn: 'INSERT_DSN_HERE',
-  release: `INSERT_RELEASE_HERE`,
-  dist: 'INSERT_DIST_HERE'
+  release: 'sentry-sourcemaps-issue@0.0.1',
+  dist: '1'
 }, SentryAngular.init);
 
 if (environment.production) {

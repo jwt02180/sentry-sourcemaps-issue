@@ -12,7 +12,7 @@ Created an account, organization, and Capacitor project in Sentry.
     ```
  3. Followed Capacitor setup [docs](https://docs.sentry.io/platforms/javascript/guides/capacitor/#configure)
     - I put `Sentry.init()` in main.ts instead of app.module.ts
-    - Configured a dsn, release, and dist (removed from this example). Substitue your own to test for yourself
+    - Configured a dsn (removed from this example), release, and dist. Substitue your own values to test for yourself
  4. Threw an error in the `ionViewDidEnter` lifecycle in `src/app/home/home.page.ts` for Sentry to log.
  5. Did a development build of app `ionic build` to generate the `www` directory
 
